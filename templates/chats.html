@@ -1,0 +1,8 @@
+{% for greeting in greetings %}
+  <div>
+      {{ greeting.user }}:
+      <div style="display:none">({{ greeting.date }})</div>
+      {{ greeting.content|escape }}
+    
+  </div>
+{% endfor %}
