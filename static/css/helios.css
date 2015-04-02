@@ -80,12 +80,11 @@ background-color: rgba(255, 200, 67, 0.8);
 #weatherBar {
   position: absolute;
   z-index: 19;
-  width: 500px;
   background-color: black;
   height: 145px;
   left: 50%;
   margin-left: -250px;
-  top: 605px;
+  top: 700px;
 }
 
 .table{
@@ -141,8 +140,13 @@ border: none;
 }
 
 .logo img{
-  margin: 90px 0 30px 0;
-  width: 600px;
+  margin: 90px 0 0 0;
+}
+
+.logo .text {
+  margin-bottom: 55px;
+  font-size: 21px;
+  color: rgb(50, 81, 113);
 }
 
 
