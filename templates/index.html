@@ -40,11 +40,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Helios Roofing</a>
+              <a class="navbar-brand" href="#"><img class="menu-img" src="/static/img/logo.jpg" alt="Helios"></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="dropdown">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="service dropdown nav-item">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
                   <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                     <li class="dropdown-submenu">
@@ -88,8 +89,16 @@
                     </li>  
                   </ul>
                 </li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a data-toggle="modal" data-target="#myModal">Request Estimate</a></li>
+                <li class="project nav-item">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>   
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                    <li><a href="#">Project 1</a></li>
+                    <li><a href="#">Project 2</a></li>
+                    <li><a href="#">Project 3</a></li>
+                  </ul>
+                </il>
+                <li class="contact nav-item"><a href="#contact">Contact</a></li>
+                <li class="estimate nav-item"><a data-toggle="modal" data-target="#myModal">Request Estimate</a></li>
               </ul>
             </div>
           </div>
@@ -123,7 +132,7 @@
 
       <!--Logo-->
       <div class="logo">
-        <center><img src="/static/img/logo.jpg" alt="logo" ><h3 class="text">Roofing & Waterprofing</h3></center>
+        <center><img src="/static/img/logo.jpg" alt="logo"><h3 class="text">Roofing & Waterprofing</h3></center>
       </div>
       <!--End Logo-->
 
@@ -136,38 +145,36 @@
 
       <div class="carousel-inner">
         <div class="item">
-          <img src="/static/img/slide5.jpg" alt="First slide" >
+          <img src="/static/img/slide5.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Protect your home is our top priority</h1>
               <p>We are roofing contractor who is offer a total roofing, reroofing, waterproofing and repair service on all roof system. Our residential services protect you home, from Top down. </p>
-              <p><a class="btn btn-outline btn-lg" href="#" role="button"><span class="glyphicon glyphicon-edit"></span> Free Estimate</a></p>
+              <p><a class="btn btn-outline btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal"></span>Free Estimate</a></p>
             </div>
           </div>
         </div>
         <div class="item active">
-          <img src="/static/img/slide6.jpg" alt="Second slide" >
+          <img src="/static/img/slide6.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Great service is our Goal</h1>
               <p>When you work with our Expert Roofers, Helios committed to finding the best roofing solution for your needs.</p>
-              <p><a class="btn btn-outline btn-lg" href="#" role="button"><span class="glyphicon glyphicon-tint"></span> Successful Stories</a></p>
+              <p><a class="btn btn-outline btn-lg" href="#" role="button">Our Projects</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="/static/img/slide7.jpg" alt="Third slide" >
+          <img src="/static/img/slide7.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Commercial Roofing, In time and On time</h1>
               <p>Protecting your investment is what we concern. Our commercial roofing experts let you focus on your daily operation. Let us taking care of your 'Top headache'.</p>
-              <p><a class="btn btn-outline btn-lg" href="#contact" role="button"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></p>
+              <p><a class="btn btn-outline btn-lg" href="#contact" role="button">Welcome to Contact Us</a></p>
             </div>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
 
 
@@ -818,7 +825,7 @@
               <div class="row">
 
                   <dl class="dl-horizontal col-md-4">
-                    <h3><dt><span class="glyphicon glyphicon-map-marker"></span></dt></h3>
+                    <h3><dt></dt></h3>
                     <h4><dd>Address:</dd></h4>
                     <dd>200-5050 Kingsway
                       </br>Burnaby BC, Canada
@@ -827,24 +834,24 @@
                   </dl>
 
                   <dl class="dl-horizontal col-md-4">
-                    <h3><dt><span class="glyphicon glyphicon-envelope"></span></dt></h3>
+                    <h3><dt></dt></h3>
                     <h4><dd>Email:</dd></h4>
                     <dd>info@heliosroofing.com
                     </dd>                 
 
-                    <h3><dt><span class="glyphicon glyphicon-print"></span></dt></h3>
+                    <h3><dt></dt></h3>
                     <h4><dd>Fax:</dd></h4>
                     <dd>604-288-1070
                     </dd>                 
                   </dl>
 
                   <dl class="dl-horizontal col-md-4">
-                    <h3><dt><span class="glyphicon glyphicon-time"></span></dt></h3>
+                    <h3><dt></dt></h3>
                     <h4><dd>Office Hours:</dd></h4>
                     <dd>Monday - Friday 9:00am - 17:00pm
                     </dd>                 
 
-                    <h3><dt><span class="glyphicon glyphicon-exclamation-sign"></span></dt></3>
+                    <h3><dt></dt></3>
                     <h4><dd>Repairing and Emergence Service:</dd></h4>
                     <dd>Monday - Sunday 24 Hrs
                     </dd>                 
@@ -863,7 +870,7 @@
                 </br>© 2014 Helios Roofing and Waterproofing LTD.</p>
               </div>
  
-          <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-circle-arrow-up"></span> Back to top</a></p>
+          <p class="pull-right"><a href="#">Back to top</a></p>
         </div>
         
 

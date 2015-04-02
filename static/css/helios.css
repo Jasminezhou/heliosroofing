@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 
 .navbar-default {
 background-color: #ffffff;
@@ -12,6 +15,10 @@ background-color: #28426D;
 
 .navbar-default .navbar-nav>li>a {
 color: #28426D;
+}
+
+.menu-img{
+  height: 30px;
 }
 
 .v-center {display:table!important; 
