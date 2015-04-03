@@ -156,6 +156,10 @@ class MainHandler(BaseRequestHandler):
                                'session': session_key.urlsafe()}
         self.render('index.html', template_values)
 
+class ProjectHandler(BaseRequestHandler):
+    def get(self):
+        self.render('project.html', {})
+
 
 class ChatRequestHandler(BaseRequestHandler):
     def sendSms(self, from_number, to_number, msg):
@@ -211,6 +215,7 @@ class SmsHandler(BaseRequestHandler):
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
+    ('/projects', ProjectHandler),
     ('/getchats', ChatRequestHandler),
     ('/sms', SmsHandler),
 ], debug=True)

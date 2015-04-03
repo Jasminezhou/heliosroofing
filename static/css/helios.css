@@ -607,3 +607,13 @@ footer img{
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
+
+#projects .row{
+  margin-bottom: 30px;
+}
+
+.project-secondary-text p{
+padding: 35px;
+
+}
+
