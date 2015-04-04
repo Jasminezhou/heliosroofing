@@ -612,8 +612,13 @@ footer img{
   margin-bottom: 30px;
 }
 
+#projects h3{
+  margin: 0;
+  padding: 0;
+  color: rgb(8, 40, 69);
+}
 .project-secondary-text p{
-padding: 35px;
+padding: 40px;
 
 }
 
