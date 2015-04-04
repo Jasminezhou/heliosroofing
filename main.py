@@ -196,6 +196,19 @@ ProjectTemplateValues = {
         'img5': '/static/img/projects/Helios_projects_Insulation1.jpg',
         'img6': '/static/img/projects/Helios_projects_Insulation4.jpg',
     },
+     'richmond': {
+        'template': 'project.html',
+        'title': 'Bridgeport Road',
+        'info': 'This is a text placeholder. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue sed risus vitae efficitur. Sed dapibus dictum risus, nec pellentesque libero dignissim sed. Praesent blandit velit nulla, in tempus nisi ornare sed. Maecenas sagittis tortor in nibh tristique iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sit amet magna vitae nulla blandit commodo. Sed ornare hendrerit ultrices. Morbi bibendum massa a quam egestas tempus. Etiam aliquet neque et leo ornare pharetra. Cras odio orci, feugiat eu dapibus vitae, laoreet quis ante. Nulla convallis lorem ante, eu sodales erat dictum quis. Nullam vehicula scelerisque nulla ornare rhoncus. Nullam ultricies et neque sed iaculis.',
+        'detail': 'This is a text placeholder. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        'img0': '/static/img/projects/Helios_projects_BridgeportRoadRichmond2.jpg',
+        'img1': '/static/img/projects/Helios_projects_BridgeportRoadRichmond4.jpg',
+        'img2': '/static/img/projects/Helios_projects_BridgeportRoadRichmond5.jpg',
+        'img3': '/static/img/projects/Helios_projects_BridgeportRoadRichmond6.jpg',
+        'img4': '/static/img/projects/Helios_projects_BridgeportRoadRichmond3.jpg',
+        'img5': '/static/img/projects/Helios_projects_BridgeportRoadRichmond7.jpg',
+        'img6': '/static/img/projects/Helios_projects_BridgeportRoadRichmond1.jpg',
+    },
 }
 
 class ProjectHandler(BaseRequestHandler):
