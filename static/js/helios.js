@@ -64,9 +64,14 @@ $(function() {
     $(detail_id).toggle("slow");
   });
   $(".service_map_detail, .service_menu_detail").click(function(e){
-    showServiceWrapper(e);
-    showService(e);
-    slideByClick(e);
+    if (location.pathname.split('/').length > 2) {
+      location.href = '/#services';
+    } else {
+      showServiceWrapper(e);
+      showService(e);
+      slideByClick(e);
+    }
+
   });
   // hover events
   $(".service_map_detail").qtip({

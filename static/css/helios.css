@@ -75,6 +75,19 @@ bottom: 100px;
   vertical-align: middle;
 }
 
+.carousel-inner img{
+  -webkit-filter: contrast(1.8) grayscale(0.1) invert(0.2);
+}
+
+.carousel-inner h1{
+  font-family: Arial;
+}
+
+.carousel-inner h1, .carousel-inner p{
+  text-shadow:10px 7px 35px black;
+}
+
+
 .btn-lg, .btn-group-lg>.btn {
 border-radius: 0px;
 }
@@ -91,7 +104,7 @@ background-color: rgba(255, 200, 67, 0.8);
   height: 145px;
   left: 50%;
   margin-left: -250px;
-  top: 700px;
+  top: 730px;
 }
 
 .table{
@@ -147,7 +160,7 @@ border: none;
 }
 
 .logo img{
-  margin: 90px 0 0 0;
+  margin: 120px 0 0 0;
 }
 
 .logo .text {
