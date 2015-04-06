@@ -156,6 +156,12 @@ class MainHandler(BaseRequestHandler):
                                'session': session_key.urlsafe()}
         self.render('index.html', template_values)
 
+class ServiceHandler(BaseRequestHandler):
+    def get(self):
+        self.render('services.html', {})
+
+
+
 ProjectTemplateValues = {
     'liquid': {
         'template': 'project.html',
@@ -214,8 +220,10 @@ ProjectTemplateValues = {
 class ProjectHandler(BaseRequestHandler):
     def get(self, projectName):
         if projectName not in ProjectTemplateValues:
-            projectName = 'liquid'
-        self.render(ProjectTemplateValues[projectName]['template'], ProjectTemplateValues[projectName])
+            projectName = 'summary'
+            self.render('project_summary.html', {})
+        else:
+            self.render(ProjectTemplateValues[projectName]['template'], ProjectTemplateValues[projectName])
 
 
 class ChatRequestHandler(BaseRequestHandler):
@@ -272,6 +280,7 @@ class SmsHandler(BaseRequestHandler):
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
+    ('/services', ServiceHandler),
     ('/projects/([^/]+)', ProjectHandler),
     ('/getchats', ChatRequestHandler),
     ('/sms', SmsHandler),

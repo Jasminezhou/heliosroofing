@@ -2,6 +2,32 @@ body {
   position: relative;
 }
 
+.btn-helios {
+  color: #28426D;
+  background-color: #fff;
+  border-color: #28426D; 
+  border: solid 3px;
+}
+
+.btn-helios:hover{
+  color: #fff;
+  background-color: #28426D;
+  border-color: #28426D; 
+}
+
+.btn, .thumbnail{
+  border-radius: 0;
+}
+
+.thumbnail-icon{
+  width: 40px;
+  float: right;
+}
+
+.thumbnail-icon:hover{
+  width: 45px;
+}
+
 .navbar-default {
 background-color: #ffffff;
 border-color: none;
@@ -632,6 +658,39 @@ footer img{
 }
 .project-secondary-text p{
 padding: 40px;
-
 }
+
+#project-summary{
+    background-color: #28426D;
+}
+
+#project-summary .container{
+  max-width: 960px;
+}
+
+#project-summary h1{
+  color: #fff;
+  padding: 50px;
+}
+
+.porject-more-butten{
+  font-size: 30px;
+  width: 100%;
+  color: #fff;
+  background-color: #28426D;
+  border-color: #fff; 
+  border: solid 3px;
+  opacity: 0.2;
+  margin: 60px 0px 90px 0px;
+}
+
+.porject-more-butten:hover{
+  color: #fff;
+  background-color: #28426D;
+  border-color: #fff; 
+  opacity: 1;
+}
+
+
+
 
